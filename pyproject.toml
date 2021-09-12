@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-sphinx-view-example"
+version = "0.1.0"
+description = "An example serving Sphinx documentation using Django."
+authors = ["Jordan Eremieff <jordan@eremieff.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.7"
+django-sphinx-view = "^21.1a4"
+Sphinx = "^4.1.2"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910"
+black = {version = "^21.8b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
